@@ -29,7 +29,7 @@ for digit in reversed(binsplit[0]):
 			decimal += 2**power
 		power += 1
 if len(binsplit) > 1:
-	power = -11
+	power = -1
 	for digit in binsplit[1]:
 		if digit != ' ':
 			if int(digit) == 1:
